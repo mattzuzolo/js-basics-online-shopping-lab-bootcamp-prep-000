@@ -13,7 +13,7 @@ function setCart(c) {
 
 function addToCart(item) {
 
-  var itemPrice = (Math.floor(Math.random() * Math.floor(100)));
+  var itemPrice = Math.floor(Math.random() * 100) + 1;;
   itemObject = {}
   itemObject[item] = itemPrice;
 
